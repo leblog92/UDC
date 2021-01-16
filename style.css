@@ -2,16 +2,7 @@ html{
 	height:100%;
 }
 #uber{
-  background: red;
-  animation: mymove 0.3s infinite;
-}
-
-@keyframes mymove {
-  0% {background-color: red;}
-  25% {background-color: blue;}
-  50% {background-color: yellow;}
-  75% {background-color: pink;}
-  100% {background-color: red;}
+  background: gold;
 }
 
 #cats{
