@@ -1,0 +1,134 @@
+html{
+	height:100%;
+}
+#uber{
+  background: red;
+  animation: mymove 0.3s infinite;
+}
+
+@keyframes mymove {
+  0% {background-color: red;}
+  25% {background-color: blue;}
+  50% {background-color: yellow;}
+  75% {background-color: pink;}
+  100% {background-color: red;}
+}
+
+#cats{
+	position:fixed;
+	bottom:20px;
+	right:20px;
+	text-align:right;
+}
+img{
+	height:350px;
+	width:auto;
+	border:solid 1px black;
+}
+body{
+	font-family:consolas;
+	margin:10px;
+	height:100%;
+	overflow:hidden;
+	background-color:WhiteSmoke;
+}
+table{
+	width:100%;
+	margin:0 auto;
+}
+a.bouton{
+	color:#fff;
+	background:#aaa;
+	padding:5px;
+	text-decoration:none;
+}
+.alert1{
+	padding: 20px;
+	height:20vh;
+	background-color: #f44336;
+	color: white;
+}
+.alert2{
+	padding: 20px;
+	height:20vh;
+	background-color: #7cc011;
+	color: white;
+}
+.alert3{
+	padding: 20px;
+	height:20vh;
+	background-color: orange;
+	color: white;
+}
+table,tr,td,th{
+	border:solid 1px #ccc;
+	text-align:center;
+	border-collapse:collapse;
+	padding:10px;
+}
+.imp{
+	font-weight:bold;
+	color:maroon;
+}
+.btn{
+	-webkit-border-radius:20;
+	-moz-border-radius:20;
+	border-radius:20px;
+	color:#fff;
+	background:#3498db;
+	padding:10px 10px 10px 10px;
+	text-decoration:none;
+}
+.btn:hover{
+	background:#3cb0fd;
+	text-decoration:none;
+}
+.logo{
+	width:160px;
+	height:44px;
+}
+.divleft{
+	float:left;
+	width:auto;
+	height:20vh;
+	margin:10px;
+	padding:20px;
+	background-color:#ddd;
+}
+#contenu{
+	overflow: hidden;
+	margin-left:10px;
+	margin-top:10px;
+	padding-left:10px;
+	padding-top:10px;
+}
+#contenu2{
+	overflow: hidden;
+	margin-left:10px;
+	margin-top:10px;
+	padding-left:10px;
+	padding-top:10px;
+}
+
+#contenu3,#contenu4{
+	overflow: hidden;
+	margin-left:10px;
+	margin-top:10px;
+	padding-left:236px;
+	padding-top:10px;
+}
+
+
+p{
+	font-size:80px;
+	transform:translateY(-70px);
+}
+#contenu2,a, a:hover, a:active{
+	color:white;
+}
+#contenu2,a:visited{
+	color:black;
+}
+.norm, a, a:hover, a:active, a:visited{
+	color:black;
+}
